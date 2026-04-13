@@ -42,7 +42,8 @@
             android:launchMode="singleTop"
             android:theme="@style/NoteTheme"
             android:uiOptions="splitActionBarWhenNarrow"
-            android:windowSoftInputMode="adjustPan" >
+            android:windowSoftInputMode="adjustPan"
+            android:exported="true" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -54,7 +55,8 @@
             android:name=".ui.NoteEditActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTop"
-            android:theme="@style/NoteTheme" >
+            android:theme="@style/NoteTheme"
+            android:exported="true" >
 
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -87,7 +89,8 @@
 
         <receiver
             android:name=".widget.NoteWidgetProvider_2x"
-            android:label="@string/app_widget2x2" >
+            android:label="@string/app_widget2x2"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
                 <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
@@ -100,7 +103,8 @@
         </receiver>
         <receiver
             android:name=".widget.NoteWidgetProvider_4x"
-            android:label="@string/app_widget4x4" >
+            android:label="@string/app_widget4x4"
+            android:exported="true" >
 
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -113,7 +117,7 @@
                 android:resource="@xml/widget_4x_info" />
         </receiver>
 
-        <receiver android:name=".ui.AlarmInitReceiver" >
+        <receiver android:name=".ui.AlarmInitReceiver" android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
