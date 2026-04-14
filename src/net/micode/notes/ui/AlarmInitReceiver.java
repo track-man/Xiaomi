@@ -27,7 +27,7 @@ import android.database.Cursor;
 import net.micode.notes.data.Notes;
 import net.micode.notes.data.Notes.NoteColumns;
 /*
- * 用于闹钟提醒启动消息的接收
+ * 初始化闹钟提醒消息
  */
 
 public class AlarmInitReceiver extends BroadcastReceiver {

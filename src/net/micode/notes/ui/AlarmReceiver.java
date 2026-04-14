@@ -14,17 +14,25 @@
  * limitations under the License.
  */
 
+/*
+ * 用于闹钟提醒的接收
+ */
 package net.micode.notes.ui;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
+
 public class AlarmReceiver extends BroadcastReceiver {
+    //到达提醒时间后调用的方法
     @Override
     public void onReceive(Context context, Intent intent) {
+        // 设置接下来由AlarmAlertActivity处理
         intent.setClass(context, AlarmAlertActivity.class);
+        // 添加FLAG_ACTIVITY_NEW_TASK标志位，用于为AlarmAlertActivity创建新的任务栈
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        // 执行任务
         context.startActivity(intent);
     }
 }
