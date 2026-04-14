@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 
+/*
+ * 实现下拉菜单界面
+ */
 package net.micode.notes.ui;
 
 import android.content.Context;
@@ -28,16 +31,22 @@ import android.widget.PopupMenu.OnMenuItemClickListener;
 import net.micode.notes.R;
 
 public class DropdownMenu {
+    //菜单中的子控件
     private Button mButton;
     private PopupMenu mPopupMenu;
     private Menu mMenu;
 
+    // 构造方法
     public DropdownMenu(Context context, Button button, int menuId) {
         mButton = button;
+        // 设置按钮背景
         mButton.setBackgroundResource(R.drawable.dropdown_icon);
+        // 初始化弹出菜单
         mPopupMenu = new PopupMenu(context, mButton);
         mMenu = mPopupMenu.getMenu();
+        // 将子控件注入
         mPopupMenu.getMenuInflater().inflate(menuId, mMenu);
+        //绑定点击事件
         mButton.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 mPopupMenu.show();
@@ -45,16 +54,19 @@ public class DropdownMenu {
         });
     }
 
+    // 绑定点击事件
     public void setOnDropdownMenuItemClickListener(OnMenuItemClickListener listener) {
         if (mPopupMenu != null) {
             mPopupMenu.setOnMenuItemClickListener(listener);
         }
     }
 
+    // 返回菜单控件
     public MenuItem findItem(int id) {
         return mMenu.findItem(id);
     }
 
+    // 设置标题
     public void setTitle(CharSequence title) {
         mButton.setText(title);
     }
