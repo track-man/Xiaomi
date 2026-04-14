@@ -185,7 +185,7 @@ public class BackupUtils {
             /**
              *    SELECT    _id, modified_date, snippet, type
              *    FROM      notes
-             *    WHERE     parent_id = 'folderId'
+             *    WHERE     parent_id = [folderId]
              *    ORDER BY  null
              */
             Cursor notesCursor = mContext.getContentResolver().query(
@@ -228,7 +228,7 @@ public class BackupUtils {
             /**
              *    SELECT    content, mime_type, data1, data2, data3, data4
              *    FROM      content
-             *    WHERE     note_id = 'noteId'
+             *    WHERE     note_id = [noteId]
              *    ORDER BY  null
              */
             Cursor dataCursor = mContext.getContentResolver().query(
