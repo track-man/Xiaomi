@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 
+/* *
+ * 用于数据处理
+ */
 package net.micode.notes.tool;
 
 import android.content.ContentProviderOperation;
@@ -37,6 +40,8 @@ import java.util.HashSet;
 
 public class DataUtils {
     public static final String TAG = "DataUtils";
+
+    // 删除处理
     public static boolean batchDeleteNotes(ContentResolver resolver, HashSet<Long> ids) {
         if (ids == null) {
             Log.d(TAG, "the ids is null");
@@ -47,8 +52,10 @@ public class DataUtils {
             return true;
         }
 
+        // 遍历操作列表删除
         ArrayList<ContentProviderOperation> operationList = new ArrayList<ContentProviderOperation>();
         for (long id : ids) {
+            // 不能删除系统预设的便签文件夹
             if(id == Notes.ID_ROOT_FOLDER) {
                 Log.e(TAG, "Don't delete system folder root");
                 continue;
