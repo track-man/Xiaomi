@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 
+/**
+ * 用于解析界面元素
+ */
 package net.micode.notes.tool;
 
 import android.content.Context;
@@ -24,6 +27,7 @@ import net.micode.notes.ui.NotesPreferenceActivity;
 
 public class ResourceParser {
 
+    // 颜色常量和默认颜色常量
     public static final int YELLOW           = 0;
     public static final int BLUE             = 1;
     public static final int WHITE            = 2;
@@ -32,6 +36,7 @@ public class ResourceParser {
 
     public static final int BG_DEFAULT_COLOR = YELLOW;
 
+    // 界面大小常量和默认界面大小常量
     public static final int TEXT_SMALL       = 0;
     public static final int TEXT_MEDIUM      = 1;
     public static final int TEXT_LARGE       = 2;
@@ -39,7 +44,9 @@ public class ResourceParser {
 
     public static final int BG_DEFAULT_FONT_SIZE = TEXT_MEDIUM;
 
+    // 背景资源
     public static class NoteBgResources {
+        // 正文背景
         private final static int [] BG_EDIT_RESOURCES = new int [] {
             R.drawable.edit_yellow,
             R.drawable.edit_blue,
@@ -48,6 +55,7 @@ public class ResourceParser {
             R.drawable.edit_red
         };
 
+        // 标题背景
         private final static int [] BG_EDIT_TITLE_RESOURCES = new int [] {
             R.drawable.edit_title_yellow,
             R.drawable.edit_title_blue,
@@ -56,15 +64,18 @@ public class ResourceParser {
             R.drawable.edit_title_red
         };
 
+        // 获得背景颜色
         public static int getNoteBgResource(int id) {
             return BG_EDIT_RESOURCES[id];
         }
 
+        // 获得标题颜色
         public static int getNoteTitleBgResource(int id) {
             return BG_EDIT_TITLE_RESOURCES[id];
         }
     }
 
+    // 获得预设的背景颜色，如果用户在偏好设置中开启随机颜色选项则返回随机颜色，否则返回默认颜色
     public static int getDefaultBgId(Context context) {
         if (PreferenceManager.getDefaultSharedPreferences(context).getBoolean(
                 NotesPreferenceActivity.PREFERENCE_SET_BG_COLOR_KEY, false)) {
@@ -74,7 +85,9 @@ public class ResourceParser {
         }
     }
 
+    // 笔记物件的背景，处理圆角效果
     public static class NoteItemBgResources {
+        // 多条笔记中的第一条，顶部圆角，底部直角
         private final static int [] BG_FIRST_RESOURCES = new int [] {
             R.drawable.list_yellow_up,
             R.drawable.list_blue_up,
@@ -83,6 +96,7 @@ public class ResourceParser {
             R.drawable.list_red_up
         };
 
+        // 多条笔记中的中间条，顶部直角，底部直角
         private final static int [] BG_NORMAL_RESOURCES = new int [] {
             R.drawable.list_yellow_middle,
             R.drawable.list_blue_middle,
@@ -91,6 +105,7 @@ public class ResourceParser {
             R.drawable.list_red_middle
         };
 
+        // 多条笔记中的最后一条，顶部直角，底部圆角
         private final static int [] BG_LAST_RESOURCES = new int [] {
             R.drawable.list_yellow_down,
             R.drawable.list_blue_down,
@@ -99,6 +114,7 @@ public class ResourceParser {
             R.drawable.list_red_down,
         };
 
+        // 单条笔记，顶部圆角，底部圆角
         private final static int [] BG_SINGLE_RESOURCES = new int [] {
             R.drawable.list_yellow_single,
             R.drawable.list_blue_single,
@@ -107,6 +123,7 @@ public class ResourceParser {
             R.drawable.list_red_single
         };
 
+        // 以下一系列方法是获取对应位置笔记的背景资源
         public static int getNoteBgFirstRes(int id) {
             return BG_FIRST_RESOURCES[id];
         }
@@ -123,12 +140,15 @@ public class ResourceParser {
             return BG_NORMAL_RESOURCES[id];
         }
 
+        // 获取文件夹的背景资源
         public static int getFolderBgRes() {
             return R.drawable.list_folder;
         }
     }
 
+    // 桌面组件背景资源
     public static class WidgetBgResources {
+        // 2×2桌面笔记组件资源
         private final static int [] BG_2X_RESOURCES = new int [] {
             R.drawable.widget_2x_yellow,
             R.drawable.widget_2x_blue,
@@ -136,11 +156,12 @@ public class ResourceParser {
             R.drawable.widget_2x_green,
             R.drawable.widget_2x_red,
         };
-
+        // 获取2×2资源
         public static int getWidget2xBgResource(int id) {
             return BG_2X_RESOURCES[id];
         }
 
+        // 4×4桌面笔记组件资源
         private final static int [] BG_4X_RESOURCES = new int [] {
             R.drawable.widget_4x_yellow,
             R.drawable.widget_4x_blue,
@@ -149,12 +170,15 @@ public class ResourceParser {
             R.drawable.widget_4x_red
         };
 
+        // 获取4×4资源
         public static int getWidget4xBgResource(int id) {
             return BG_4X_RESOURCES[id];
         }
     }
 
+    // 字体大小
     public static class TextAppearanceResources {
+        // 字号资源
         private final static int [] TEXTAPPEARANCE_RESOURCES = new int [] {
             R.style.TextAppearanceNormal,
             R.style.TextAppearanceMedium,
@@ -162,18 +186,21 @@ public class ResourceParser {
             R.style.TextAppearanceSuper
         };
 
+        // 获取字号资源
         public static int getTexAppearanceResource(int id) {
             /**
              * HACKME: Fix bug of store the resource id in shared preference.
              * The id may larger than the length of resources, in this case,
              * return the {@link ResourceParser#BG_DEFAULT_FONT_SIZE}
              */
+            // 越界检查，修bug时增加的
             if (id >= TEXTAPPEARANCE_RESOURCES.length) {
                 return BG_DEFAULT_FONT_SIZE;
             }
             return TEXTAPPEARANCE_RESOURCES[id];
         }
 
+        // 获取资源大小
         public static int getResourcesSize() {
             return TEXTAPPEARANCE_RESOURCES.length;
         }
