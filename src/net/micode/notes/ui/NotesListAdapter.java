@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 
+/*
+ * 链接ui和数据库
+ */
 package net.micode.notes.ui;
 
 import android.content.Context;
@@ -33,16 +36,24 @@ import java.util.Iterator;
 
 public class NotesListAdapter extends CursorAdapter {
     private static final String TAG = "NotesListAdapter";
+    // 上下文对象
     private Context mContext;
+    // 记录哪些条目被勾选
     private HashMap<Integer, Boolean> mSelectedIndex;
+    // 笔记数量
     private int mNotesCount;
+    // 是否为选择模式
     private boolean mChoiceMode;
 
+    // 桌面组件属性
     public static class AppWidgetAttribute {
+        // 组件id
         public int widgetId;
+        // 组件类型
         public int widgetType;
     };
 
+    // 构造器初始化
     public NotesListAdapter(Context context) {
         super(context, null);
         mSelectedIndex = new HashMap<Integer, Boolean>();
@@ -50,34 +61,41 @@ public class NotesListAdapter extends CursorAdapter {
         mNotesCount = 0;
     }
 
+    // 新建视图
     @Override
     public View newView(Context context, Cursor cursor, ViewGroup parent) {
         return new NotesListItem(context);
     }
 
+    // 绑定视图到ui
     @Override
     public void bindView(View view, Context context, Cursor cursor) {
         if (view instanceof NotesListItem) {
+            // 将游标指向的数据封装进NoteItemData对象中，再将对象绑定视图
             NoteItemData itemData = new NoteItemData(context, cursor);
             ((NotesListItem) view).bind(context, itemData, mChoiceMode,
                     isSelectedItem(cursor.getPosition()));
         }
     }
 
+    // 选中项
     public void setCheckedItem(final int position, final boolean checked) {
         mSelectedIndex.put(position, checked);
         notifyDataSetChanged();
     }
 
+    // getter方法
     public boolean isInChoiceMode() {
         return mChoiceMode;
     }
 
+    // 设置模式
     public void setChoiceMode(boolean mode) {
         mSelectedIndex.clear();
         mChoiceMode = mode;
     }
 
+    // 全选
     public void selectAll(boolean checked) {
         Cursor cursor = getCursor();
         for (int i = 0; i < getCount(); i++) {
@@ -89,11 +107,13 @@ public class NotesListAdapter extends CursorAdapter {
         }
     }
 
+    // 获取被选中项的id
     public HashSet<Long> getSelectedItemIds() {
         HashSet<Long> itemSet = new HashSet<Long>();
         for (Integer position : mSelectedIndex.keySet()) {
             if (mSelectedIndex.get(position) == true) {
                 Long id = getItemId(position);
+                // 不能选根目录
                 if (id == Notes.ID_ROOT_FOLDER) {
                     Log.d(TAG, "Wrong item id, should not happen");
                 } else {
@@ -105,12 +125,16 @@ public class NotesListAdapter extends CursorAdapter {
         return itemSet;
     }
 
+    // 获取选中的组件
     public HashSet<AppWidgetAttribute> getSelectedWidget() {
         HashSet<AppWidgetAttribute> itemSet = new HashSet<AppWidgetAttribute>();
         for (Integer position : mSelectedIndex.keySet()) {
+            // 被选中的组件
             if (mSelectedIndex.get(position) == true) {
+                // 获得对应行数据
                 Cursor c = (Cursor) getItem(position);
                 if (c != null) {
+                    // 封装组件对象
                     AppWidgetAttribute widget = new AppWidgetAttribute();
                     NoteItemData item = new NoteItemData(mContext, c);
                     widget.widgetId = item.getWidgetId();
@@ -128,6 +152,7 @@ public class NotesListAdapter extends CursorAdapter {
         return itemSet;
     }
 
+    // 获取被选中项的数量
     public int getSelectedCount() {
         Collection<Boolean> values = mSelectedIndex.values();
         if (null == values) {
@@ -143,11 +168,13 @@ public class NotesListAdapter extends CursorAdapter {
         return count;
     }
 
+    // 是否被全部选中
     public boolean isAllSelected() {
         int checkedCount = getSelectedCount();
         return (checkedCount != 0 && checkedCount == mNotesCount);
     }
 
+    // 指定项是否被选中
     public boolean isSelectedItem(final int position) {
         if (null == mSelectedIndex.get(position)) {
             return false;
@@ -155,18 +182,21 @@ public class NotesListAdapter extends CursorAdapter {
         return mSelectedIndex.get(position);
     }
 
+    // 数据库内容需要变化时触发
     @Override
     protected void onContentChanged() {
         super.onContentChanged();
         calcNotesCount();
     }
 
+    // 需要指定新的游标时触发
     @Override
     public void changeCursor(Cursor cursor) {
         super.changeCursor(cursor);
         calcNotesCount();
     }
 
+    // 计算项目总数
     private void calcNotesCount() {
         mNotesCount = 0;
         for (int i = 0; i < getCount(); i++) {
