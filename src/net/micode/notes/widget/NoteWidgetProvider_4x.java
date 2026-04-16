@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 
+/*
+ * 4×4桌面组件
+ */
 package net.micode.notes.widget;
 
 import android.appwidget.AppWidgetManager;
@@ -25,20 +28,24 @@ import net.micode.notes.tool.ResourceParser;
 
 
 public class NoteWidgetProvider_4x extends NoteWidgetProvider {
+    // 更新组件
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
         super.update(context, appWidgetManager, appWidgetIds);
     }
 
+    // 返回布局id
     protected int getLayoutId() {
         return R.layout.widget_4x;
     }
 
+    // 返回背景资源id
     @Override
     protected int getBgResourceId(int bgId) {
         return ResourceParser.WidgetBgResources.getWidget4xBgResource(bgId);
     }
 
+    // 返回组件类型
     @Override
     protected int getWidgetType() {
         return Notes.TYPE_WIDGET_4X;
