@@ -1,237 +1,474 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:18:1-154:12
-INJECTED from D:\edgeDownloads\temp1\AndroidManifest.xml:18:1-154:12
-INJECTED from D:\edgeDownloads\temp1\AndroidManifest.xml:18:1-154:12
-INJECTED from D:\edgeDownloads\temp1\AndroidManifest.xml:18:1-154:12
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:2:1-138:12
+MERGED from [com.google.android.material:material:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\09fc8064183bed15f8dd7c1aba5efacd\workspace\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] D:\edgeDownloads\caches\9.3.1\transforms\455d1eea33d48e6a9d462412e2847e1d\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] D:\edgeDownloads\caches\9.3.1\transforms\ce140c24781c9f19e03f1dd6c3560d44\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] D:\edgeDownloads\caches\9.3.1\transforms\fbcd35bfbcbd8cbe101ee6d68a2b559c\workspace\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\049195c5ffb59d4f76fe56d16cc81fef\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] D:\edgeDownloads\caches\9.3.1\transforms\100d0d89977099da2317874b8dd4572a\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] D:\edgeDownloads\caches\9.3.1\transforms\4a266027fafb230c12b3ac24076ba44f\workspace\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] D:\edgeDownloads\caches\9.3.1\transforms\1fa2f4975555ae8b3aef704330d8ffd5\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] D:\edgeDownloads\caches\9.3.1\transforms\a7c1636236c870f0c4ecf67e27c0fc1f\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\63761f7a1716a69856be4374a90bb260\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.loader:loader:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\e26c7aebc10bfcd4ebf7bc043c43a691\workspace\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\038064d8750ae419a219edd93aade0fe\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\baa70fd568ed887a95320d0995a9c697\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\092243a722e9f40806e6e1f1eee9854b\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\a8445210fa35ac739bdaac3d34ea9526\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\2cc80bbb5f0404e081f1c6b3fb34941a\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\646922bf885a2ef00fa515630c24255b\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\4be844eca019291d336dbb7375518adb\workspace\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\1ba4c04a691b9b95483f25180df8cb12\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\d87b007905fe42c34e83d557ecd2c238\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] D:\edgeDownloads\caches\9.3.1\transforms\56c39509e61e4ae6a7c595cf1e714e72\workspace\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\7bec65cbdbcaf0ec1f725712ef906c5f\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] D:\edgeDownloads\caches\9.3.1\transforms\bff4910a90526174825f9b13b75c36c0\workspace\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\1524601fb10e0500e9abf27b323a23cf\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\2745c518bc7a7618de1e252f32062fdf\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\af1c8981ba28ba10b686f0f090136a40\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\4c58cc0bbd80133e2b4b7120cad7f5cb\workspace\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\273ad3fdf15cca17989b26c6b31b11be\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] D:\edgeDownloads\caches\9.3.1\transforms\5ae3d4fe6c1069460978527b18b5084a\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\9537080b757edf1ad519de7fdd0ec4c5\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\9a99b0ec3aec7b095a856a73f72553e9\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\95303e81599127fcca9075bc6ed60bf1\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\c93bb5979ea3f3d6c507d86de49af036\workspace\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\c5652e5bbbba528c89ef6814a0b33ede\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] D:\edgeDownloads\caches\9.3.1\transforms\46f56d79c7a4348bd71dc32566b6a0d6\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 	package
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:19:5-31
-		INJECTED from D:\edgeDownloads\temp1\AndroidManifest.xml
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:21:5-30
-		INJECTED from D:\edgeDownloads\temp1\AndroidManifest.xml
-	xmlns:android
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:18:11-69
+		INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:20:5-28
-		INJECTED from D:\edgeDownloads\temp1\AndroidManifest.xml
-uses-sdk
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:23:5-44
-INJECTED from D:\edgeDownloads\temp1\AndroidManifest.xml:23:5-44
-INJECTED from D:\edgeDownloads\temp1\AndroidManifest.xml:23:5-44
-	android:targetSdkVersion
-		INJECTED from D:\edgeDownloads\temp1\AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:23:15-41
-		INJECTED from D:\edgeDownloads\temp1\AndroidManifest.xml
+		INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:25:5-81
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:25:22-78
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:5:22-78
 uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:26:5-88
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:6:5-88
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:26:22-85
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:6:22-85
 uses-permission#android.permission.INTERNET
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:27:5-67
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:27:22-64
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:7:22-64
 uses-permission#android.permission.READ_CONTACTS
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:28:5-72
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:8:5-72
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:28:22-69
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:8:22-69
 uses-permission#android.permission.MANAGE_ACCOUNTS
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:29:5-74
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:9:5-74
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:29:22-71
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:9:22-71
 uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:30:5-80
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:30:22-77
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:31:5-71
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:11:5-71
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:31:22-68
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:11:22-68
 uses-permission#android.permission.USE_CREDENTIALS
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:32:5-74
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:12:5-74
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:32:22-71
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:12:22-71
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:33:5-81
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:33:22-78
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:13:22-78
 application
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:35:5-153:19
-INJECTED from D:\edgeDownloads\temp1\AndroidManifest.xml:35:5-153:19
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:15:5-137:19
+INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:15:5-137:19
+MERGED from [com.google.android.material:material:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\09fc8064183bed15f8dd7c1aba5efacd\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\09fc8064183bed15f8dd7c1aba5efacd\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] D:\edgeDownloads\caches\9.3.1\transforms\455d1eea33d48e6a9d462412e2847e1d\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] D:\edgeDownloads\caches\9.3.1\transforms\455d1eea33d48e6a9d462412e2847e1d\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\092243a722e9f40806e6e1f1eee9854b\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\092243a722e9f40806e6e1f1eee9854b\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\273ad3fdf15cca17989b26c6b31b11be\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\273ad3fdf15cca17989b26c6b31b11be\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\95303e81599127fcca9075bc6ed60bf1\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\95303e81599127fcca9075bc6ed60bf1\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from D:\edgeDownloads\temp1\AndroidManifest.xml
+		INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:37:9-41
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:18:9-41
 	android:icon
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:36:9-42
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:17:9-42
+	android:allowBackup
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:20:9-41
+uses-library#org.apache.http.legacy
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:22:9-24:40
+	android:required
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:23:13-50
 activity#net.micode.notes.ui.NotesListActivity
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:38:9-52:20
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:26:9-38:20
 	android:label
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:41:13-45
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:29:13-45
 	android:launchMode
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:42:13-43
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:30:13-43
 	android:windowSoftInputMode
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:45:13-52
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:32:13-52
 	android:exported
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:46:13-36
-	android:uiOptions
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:44:13-57
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:33:13-36
 	android:configChanges
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:40:13-74
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:28:13-74
 	android:theme
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:43:13-45
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:31:13-45
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:39:13-49
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:27:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:48:13-51:29
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:34:13-37:29
 action#android.intent.action.MAIN
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:49:17-69
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:49:25-66
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:50:17-77
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:50:27-74
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:36:27-74
 activity#net.micode.notes.ui.NoteEditActivity
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:54:9-83:20
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:40:9-65:20
 	android:launchMode
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:57:13-43
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:43:13-43
 	android:exported
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:59:13-36
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:45:13-36
 	android:configChanges
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:56:13-74
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:42:13-74
 	android:theme
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:58:13-45
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:44:13-45
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:55:13-48
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:41:13-48
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/call_note+data:mimeType:vnd.android.cursor.item/text_note
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:61:13-66:29
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:46:13-51:29
 action#android.intent.action.VIEW
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:62:17-69
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:47:17-69
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:62:25-66
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:47:25-66
 category#android.intent.category.DEFAULT
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:63:17-76
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:48:17-76
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:63:27-73
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:48:27-73
 data
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:64:17-78
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:49:17-78
 	android:mimeType
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:64:23-75
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:49:23-75
 intent-filter#action:name:android.intent.action.INSERT_OR_EDIT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/call_note+data:mimeType:vnd.android.cursor.item/text_note
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:68:13-73:29
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:52:13-57:29
 action#android.intent.action.INSERT_OR_EDIT
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:69:17-79
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:53:17-79
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:69:25-76
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:53:25-76
 intent-filter#action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:75:13-78:29
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:58:13-61:29
 action#android.intent.action.SEARCH
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:76:17-71
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:59:17-71
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:76:25-68
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:59:25-68
 meta-data#android.app.searchable
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:80:13-82:54
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:62:13-64:54
 	android:resource
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:82:17-51
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:64:17-51
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:81:17-54
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:63:17-54
 provider#net.micode.notes.data.NotesProvider
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:85:9-88:43
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:67:9-71:39
 	android:authorities
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:87:13-47
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:69:13-47
 	android:multiprocess
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:88:13-40
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:70:13-40
+	android:exported
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:71:13-36
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:86:13-63
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:68:13-47
 receiver#net.micode.notes.widget.NoteWidgetProvider_2x
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:90:9-103:20
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:73:9-85:20
 	android:label
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:92:13-50
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:75:13-50
 	android:exported
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:93:13-36
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:76:13-36
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:91:13-57
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:74:13-57
 intent-filter#action:name:android.appwidget.action.APPWIDGET_DELETED+action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:android.intent.action.PRIVACY_MODE_CHANGED
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:94:13-98:29
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:77:13-81:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:95:17-84
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:78:17-84
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:95:25-81
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:78:25-81
 action#android.appwidget.action.APPWIDGET_DELETED
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:96:17-85
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:79:17-85
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:96:25-82
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:79:25-82
 action#android.intent.action.PRIVACY_MODE_CHANGED
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:97:17-85
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:80:17-85
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:97:25-82
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:80:25-82
 meta-data#android.appwidget.provider
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:100:13-102:58
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:82:13-84:58
 	android:resource
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:102:17-55
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:84:17-55
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:101:17-58
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:83:17-58
 receiver#net.micode.notes.widget.NoteWidgetProvider_4x
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:104:9-118:20
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:87:9-99:20
 	android:label
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:106:13-50
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:89:13-50
 	android:exported
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:107:13-36
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:90:13-36
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:105:13-57
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:88:13-57
 receiver#net.micode.notes.ui.AlarmInitReceiver
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:120:9-124:20
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:101:9-105:20
 	android:exported
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:120:56-79
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:101:56-79
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:120:19-55
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:101:19-55
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:121:13-123:29
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:102:13-104:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:122:17-79
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:103:17-79
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:122:25-76
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:103:25-76
 receiver#net.micode.notes.ui.AlarmReceiver
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:126:9-129:20
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:107:9-111:20
 	android:process
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:128:13-38
-	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:127:13-61
-activity#net.micode.notes.ui.AlarmAlertActivity
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:131:9-136:20
-	android:label
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:133:13-45
-	android:launchMode
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:134:13-48
-	android:theme
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:135:13-75
-	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:132:13-50
-activity#net.micode.notes.ui.NotesPreferenceActivity
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:138:9-143:20
-	android:label
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:140:13-54
-	android:launchMode
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:141:13-43
-	android:theme
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:142:13-60
-	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:139:13-71
-service#net.micode.notes.gtask.remote.GTaskSyncService
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:145:9-148:19
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:109:13-38
 	android:exported
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:147:13-37
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:110:13-36
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:146:13-74
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:108:13-45
+activity#net.micode.notes.ui.AlarmAlertActivity
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:113:9-119:20
+	android:label
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:115:13-45
+	android:launchMode
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:116:13-48
+	android:exported
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:118:13-36
+	android:theme
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:117:13-75
+	android:name
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:114:13-50
+activity#net.micode.notes.ui.NotesPreferenceActivity
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:121:9-127:20
+	android:label
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:123:13-54
+	android:launchMode
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:124:13-43
+	android:exported
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:126:13-36
+	android:theme
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:125:13-60
+	android:name
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:122:13-55
+service#net.micode.notes.gtask.remote.GTaskSyncService
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:129:9-132:19
+	android:exported
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:131:13-37
+	android:name
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:130:13-58
 meta-data#android.app.default_searchable
-ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:150:9-152:52
+ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:134:9-136:52
 	android:value
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:152:13-49
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:136:13-49
 	android:name
-		ADDED from D:\edgeDownloads\temp1\AndroidManifest.xml:151:13-58
+		ADDED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml:135:13-58
+uses-sdk
+INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml
+INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\09fc8064183bed15f8dd7c1aba5efacd\workspace\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\09fc8064183bed15f8dd7c1aba5efacd\workspace\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] D:\edgeDownloads\caches\9.3.1\transforms\455d1eea33d48e6a9d462412e2847e1d\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] D:\edgeDownloads\caches\9.3.1\transforms\455d1eea33d48e6a9d462412e2847e1d\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] D:\edgeDownloads\caches\9.3.1\transforms\ce140c24781c9f19e03f1dd6c3560d44\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] D:\edgeDownloads\caches\9.3.1\transforms\ce140c24781c9f19e03f1dd6c3560d44\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] D:\edgeDownloads\caches\9.3.1\transforms\fbcd35bfbcbd8cbe101ee6d68a2b559c\workspace\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] D:\edgeDownloads\caches\9.3.1\transforms\fbcd35bfbcbd8cbe101ee6d68a2b559c\workspace\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\049195c5ffb59d4f76fe56d16cc81fef\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\049195c5ffb59d4f76fe56d16cc81fef\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] D:\edgeDownloads\caches\9.3.1\transforms\100d0d89977099da2317874b8dd4572a\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] D:\edgeDownloads\caches\9.3.1\transforms\100d0d89977099da2317874b8dd4572a\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] D:\edgeDownloads\caches\9.3.1\transforms\4a266027fafb230c12b3ac24076ba44f\workspace\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] D:\edgeDownloads\caches\9.3.1\transforms\4a266027fafb230c12b3ac24076ba44f\workspace\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] D:\edgeDownloads\caches\9.3.1\transforms\1fa2f4975555ae8b3aef704330d8ffd5\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] D:\edgeDownloads\caches\9.3.1\transforms\1fa2f4975555ae8b3aef704330d8ffd5\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] D:\edgeDownloads\caches\9.3.1\transforms\a7c1636236c870f0c4ecf67e27c0fc1f\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] D:\edgeDownloads\caches\9.3.1\transforms\a7c1636236c870f0c4ecf67e27c0fc1f\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\63761f7a1716a69856be4374a90bb260\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\63761f7a1716a69856be4374a90bb260\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\e26c7aebc10bfcd4ebf7bc043c43a691\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\e26c7aebc10bfcd4ebf7bc043c43a691\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\038064d8750ae419a219edd93aade0fe\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\038064d8750ae419a219edd93aade0fe\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\baa70fd568ed887a95320d0995a9c697\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\baa70fd568ed887a95320d0995a9c697\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\092243a722e9f40806e6e1f1eee9854b\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\092243a722e9f40806e6e1f1eee9854b\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\a8445210fa35ac739bdaac3d34ea9526\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\a8445210fa35ac739bdaac3d34ea9526\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\2cc80bbb5f0404e081f1c6b3fb34941a\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\2cc80bbb5f0404e081f1c6b3fb34941a\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\646922bf885a2ef00fa515630c24255b\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\646922bf885a2ef00fa515630c24255b\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\4be844eca019291d336dbb7375518adb\workspace\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\4be844eca019291d336dbb7375518adb\workspace\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\1ba4c04a691b9b95483f25180df8cb12\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\1ba4c04a691b9b95483f25180df8cb12\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\d87b007905fe42c34e83d557ecd2c238\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\d87b007905fe42c34e83d557ecd2c238\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] D:\edgeDownloads\caches\9.3.1\transforms\56c39509e61e4ae6a7c595cf1e714e72\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] D:\edgeDownloads\caches\9.3.1\transforms\56c39509e61e4ae6a7c595cf1e714e72\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\7bec65cbdbcaf0ec1f725712ef906c5f\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\7bec65cbdbcaf0ec1f725712ef906c5f\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] D:\edgeDownloads\caches\9.3.1\transforms\bff4910a90526174825f9b13b75c36c0\workspace\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] D:\edgeDownloads\caches\9.3.1\transforms\bff4910a90526174825f9b13b75c36c0\workspace\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\1524601fb10e0500e9abf27b323a23cf\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\1524601fb10e0500e9abf27b323a23cf\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\2745c518bc7a7618de1e252f32062fdf\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\2745c518bc7a7618de1e252f32062fdf\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\af1c8981ba28ba10b686f0f090136a40\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\af1c8981ba28ba10b686f0f090136a40\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\4c58cc0bbd80133e2b4b7120cad7f5cb\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] D:\edgeDownloads\caches\9.3.1\transforms\4c58cc0bbd80133e2b4b7120cad7f5cb\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\273ad3fdf15cca17989b26c6b31b11be\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\273ad3fdf15cca17989b26c6b31b11be\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] D:\edgeDownloads\caches\9.3.1\transforms\5ae3d4fe6c1069460978527b18b5084a\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] D:\edgeDownloads\caches\9.3.1\transforms\5ae3d4fe6c1069460978527b18b5084a\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\9537080b757edf1ad519de7fdd0ec4c5\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\9537080b757edf1ad519de7fdd0ec4c5\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\9a99b0ec3aec7b095a856a73f72553e9\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\9a99b0ec3aec7b095a856a73f72553e9\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\95303e81599127fcca9075bc6ed60bf1\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\95303e81599127fcca9075bc6ed60bf1\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\c93bb5979ea3f3d6c507d86de49af036\workspace\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\c93bb5979ea3f3d6c507d86de49af036\workspace\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\c5652e5bbbba528c89ef6814a0b33ede\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\edgeDownloads\caches\9.3.1\transforms\c5652e5bbbba528c89ef6814a0b33ede\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] D:\edgeDownloads\caches\9.3.1\transforms\46f56d79c7a4348bd71dc32566b6a0d6\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] D:\edgeDownloads\caches\9.3.1\transforms\46f56d79c7a4348bd71dc32566b6a0d6\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\edgeDownloads\notes-master (1)\notes-master\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\092243a722e9f40806e6e1f1eee9854b\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\092243a722e9f40806e6e1f1eee9854b\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\95303e81599127fcca9075bc6ed60bf1\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\edgeDownloads\caches\9.3.1\transforms\95303e81599127fcca9075bc6ed60bf1\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] D:\edgeDownloads\caches\9.3.1\transforms\2483921e3e64c3f66ba149794098be29\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\092243a722e9f40806e6e1f1eee9854b\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\092243a722e9f40806e6e1f1eee9854b\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\edgeDownloads\caches\9.3.1\transforms\092243a722e9f40806e6e1f1eee9854b\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#net.micode.notes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#net.micode.notes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] D:\edgeDownloads\caches\9.3.1\transforms\c676b7fd253f585341cbf96e9e6af600\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] D:\edgeDownloads\caches\9.3.1\transforms\c8608f6b1cd4c4e308e1a19dfbdd0f0d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
